@@ -30,7 +30,7 @@ class Categories extends StatelessWidget {
                 ),
                 Text(
                   categories[index].title,
-                  style: TextStyle(fontWeight: FontWeight.bold),
+                  style: const TextStyle(fontWeight: FontWeight.bold),
                 )
               ],
             );
